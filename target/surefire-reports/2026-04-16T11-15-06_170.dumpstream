@@ -1,0 +1,5 @@
+# Created at 2026-04-16T11:15:06.583
+Boot Manifest-JAR contains absolute paths in classpath 'D:\GTECH\BackendTest\credit_simulator\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

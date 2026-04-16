@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "=== Credit Simulator ==="
+java -cp target/*.jar com.anty.credit.App "$@"
