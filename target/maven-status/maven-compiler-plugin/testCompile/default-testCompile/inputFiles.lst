@@ -1,1 +1,6 @@
 D:\GTECH\BackendTest\credit_simulator\src\test\java\com\anty\credit\AppTest.java
+D:\GTECH\BackendTest\credit_simulator\src\test\java\com\anty\credit\factory\InterestFactoryTest.java
+D:\GTECH\BackendTest\credit_simulator\src\test\java\com\anty\credit\model\LoanTest.java
+D:\GTECH\BackendTest\credit_simulator\src\test\java\com\anty\credit\model\VehicleTest.java
+D:\GTECH\BackendTest\credit_simulator\src\test\java\com\anty\credit\service\CreditCalculatorServiceTest.java
+D:\GTECH\BackendTest\credit_simulator\src\test\java\com\anty\credit\service\ValidatorServiceTest.java

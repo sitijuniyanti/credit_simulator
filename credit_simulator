@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "=== Credit Simulator ==="
+echo "=== Credit Simulator === by Siti Juniyanti ============="
+
+echo "show  - tampilkan command"
+
 java -cp target/*.jar com.anty.credit.App "$@"

@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": ["src/main/java", "src/test/java"],
+  "java.project.outputPath": "target/classes",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compiler.codeLens.enabled": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  }
+}

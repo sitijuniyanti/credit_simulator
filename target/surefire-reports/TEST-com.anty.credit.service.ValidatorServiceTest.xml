@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.anty.credit.AppTest" time="0.213" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.anty.credit.service.ValidatorServiceTest" time="0.19" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,11 +56,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testFormatPercentMethodExists" classname="com.anty.credit.AppTest" time="0.103"/>
-  <testcase name="testShowMenuMethodExists" classname="com.anty.credit.AppTest" time="0.012"/>
-  <testcase name="testFormatRupiahMethodExists" classname="com.anty.credit.AppTest" time="0.006"/>
-  <testcase name="testAppCanBeInstantiated" classname="com.anty.credit.AppTest" time="0.009"/>
-  <testcase name="testMainClassExists" classname="com.anty.credit.AppTest" time="0.004"/>
-  <testcase name="testRunSimulationMethodExists" classname="com.anty.credit.AppTest" time="0.003"/>
-  <testcase name="testRunCalculationMethodExists" classname="com.anty.credit.AppTest" time="0.002"/>
+  <testcase name="testIsValidYear_NEW_BelowRange_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.056"/>
+  <testcase name="testIsValidCondition_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testValidateDP_Zero_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.004"/>
+  <testcase name="testIsValidYear_NEW_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testValidateCondition_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testIsValidType_WithNumbers_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testIsValidYear_FiveDigit_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.003"/>
+  <testcase name="testValidateType_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testValidateType_Invalid_ThrowsException" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testValidateDP_NEW_Below35_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.008"/>
+  <testcase name="testCreditData_ConstructorAndGetters" classname="com.anty.credit.service.ValidatorServiceTest" time="0.003"/>
+  <testcase name="testIsValidYear_USED_BelowRange_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.003"/>
+  <testcase name="testValidateAmount_Zero_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.003"/>
+  <testcase name="testIsValidYear_USED_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.007"/>
+  <testcase name="testIsValidType_Mobil_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testValidateAmount_OverBillion_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.003"/>
+  <testcase name="testIsValidYear_NEW_AboveRange_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testValidateAmount_Negative_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.004"/>
+  <testcase name="testIsValidType_Motor_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testIsValidType_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testValidateDP_USED_Below25_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testValidateTenor_BelowOne_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.012"/>
+  <testcase name="testValidateAmount_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testValidateCondition_Invalid_ThrowsException" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testIsValidYear_ThreeDigit_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testValidateDP_USED_25Percent_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testIsValidCondition_USED_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testValidateDP_NEW_35Percent_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.003"/>
+  <testcase name="testValidateTenor_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testIsValidCondition_NEW_Valid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.001"/>
+  <testcase name="testValidateTenor_AboveSix_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.002"/>
+  <testcase name="testValidateDP_GreaterOrEqual_Amount_Invalid" classname="com.anty.credit.service.ValidatorServiceTest" time="0.004"/>
 </testsuite>

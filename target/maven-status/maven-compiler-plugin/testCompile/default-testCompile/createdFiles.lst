@@ -1,1 +1,6 @@
+com\anty\credit\model\VehicleTest.class
+com\anty\credit\service\CreditCalculatorServiceTest.class
 com\anty\credit\AppTest.class
+com\anty\credit\model\LoanTest.class
+com\anty\credit\service\ValidatorServiceTest.class
+com\anty\credit\factory\InterestFactoryTest.class

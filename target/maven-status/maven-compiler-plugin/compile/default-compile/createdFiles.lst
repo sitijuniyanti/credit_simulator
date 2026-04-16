@@ -1,9 +1,15 @@
 com\anty\credit\model\Loan.class
 com\anty\credit\service\ValidatorService.class
-com\anty\credit\model\Vehicle.class
-com\anty\credit\App.class
+com\anty\credit\model\MobilKredit.class
+com\anty\credit\model\MotorKredit.class
 com\anty\credit\util\JsonHelper.class
 com\anty\credit\factory\InterestFactory.class
+com\anty\credit\model\CreditProduct.class
 com\anty\credit\service\FileInputService.class
+com\anty\credit\model\LoanCalculation.class
+com\anty\credit\util\FormatHelper.class
+com\anty\credit\model\Vehicle.class
+com\anty\credit\App.class
+com\anty\credit\service\ValidatorService$CreditData.class
 com\anty\credit\service\APIService.class
 com\anty\credit\service\CreditCalculatorService.class
