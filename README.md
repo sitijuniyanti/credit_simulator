@@ -10,7 +10,10 @@ $ java -jar credit_simulator.jar
 
 
 #WebServices EndPoint Url Update MockyIO Updates : 
-http://www.mocky.io/v2/5d11a58d310000b23508cd62
+https://mocki.io/v1/672e5b6a-2594-4065-a482-dd12fec5f8bb
+
+for zip folder app:
+https://drive.google.com/file/d/1NvZ-CMZrldmOtY-yEtRXYtwJXRbgM1wz/view?usp=sharing
 
 # 🚗 Credit Simulator
 
